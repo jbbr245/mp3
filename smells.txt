@@ -1,3 +1,4 @@
 1) The repeat statements are an example of duplicate
     code, and can be fixed using an extract method refactoring.
-2)
+2) This is an example of extraneous calling, and can be fixed by
+    moving the method to the Jenkins class.

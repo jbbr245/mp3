@@ -497,6 +497,11 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
         }
     }
 
+    private void updateAndTrim() {
+        updateComputerList();
+        trimLabels();
+    }
+
     /**
      * Legacy store of the set of installed cluster nodes.
      * @deprecated in favour of {@link Nodes}
